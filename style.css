@@ -30,7 +30,7 @@ h1 {
 }
 
 .img-posters {
-max-width: 200px;
+max-width: 400px;
 }
 
 ul li{
@@ -52,6 +52,10 @@ a{
 
 i {
   font-size: 1.5em;
+}
+
+tr {
+  padding-bottom: 50px !important;
 }
 
 .button {
