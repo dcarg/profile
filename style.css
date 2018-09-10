@@ -1,3 +1,5 @@
+
+/* Overall CSS */
 div {
   background: white;
   padding: 20px;
@@ -5,7 +7,8 @@ div {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   width: 60%;
 }
 
@@ -25,14 +28,32 @@ h1 {
   color: red;
 }
 
+/* Header Div */
+#padding {
+  padding-bottom: 10px;
+}
+
+#padding2 {
+  padding-bottom: 30px;
+}
+
+/* Profile Pic */
 #profile {
   border-radius: 50%;
+  max-height: 250px;
 }
 
-.img-posters {
-max-width: 400px;
+.button {
+  background-color: #AEB6BF;
+  padding: 10px;
+  background-size: 10px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
+
+/* Socials Div */
 ul li{
   display: inline-block;
   padding: 15px;
@@ -54,27 +75,16 @@ i {
   font-size: 1.5em;
 }
 
-tr {
-  padding-bottom: 50px !important;
+/* Projects Div */
+.row-padding {
+  margin: 30px;
 }
 
-.button {
-  background-color: #AEB6BF;
-  padding: 10px;
-  background-size: 10px;
-  color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.img-posters {
+max-width: 400px;
 }
 
-.hyperlink {
-  color: #212F3D;
-}
 
-#padding {
-  padding-bottom: 10px;
-}
 
-#padding2 {
-  padding-bottom: 30px;
-}
+
+
