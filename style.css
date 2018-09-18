@@ -54,6 +54,10 @@ h1 {
 
   
 /* Socials Div */
+
+/*.socials {
+  display: flex;
+}*/
 ul li{
   display: inline-block;
   padding: 15px;
