@@ -99,6 +99,7 @@ i {
 }
 
 /* Projects Div */
+
 tr {
 /*  padding-bottom: 50px;*/
 }
@@ -108,7 +109,7 @@ max-width: 400px;
 }
 
 .project-header-link {
-  color: black;
+    color: black;
 }
 
 
