@@ -99,15 +99,17 @@ i {
 }
 
 /* Projects Div */
-.row-padding {
-  margin: 30px;
+tr {
+/*  padding-bottom: 50px;*/
 }
 
 .img-posters {
 max-width: 400px;
 }
 
-
+.project-header-link {
+  color: black;
+}
 
 
 
