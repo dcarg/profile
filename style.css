@@ -78,6 +78,25 @@ i {
   font-size: 1.5em;
 }
 
+.fa-linkedin-in:hover {
+  color: #0077B5;
+}
+.fa-github:hover {
+  color: black;
+}
+.fa-free-code-camp:hover {
+  color: #006400;
+}
+.fa-codepen:hover {
+  color: black;
+}
+.fa-twitter:hover {
+  color: #1CA6D7;
+}
+.fa-instagram:hover {
+  color: #D62976;
+}
+
 .fa-stack {
   height: 1em;
   line-height: 1em;
