@@ -249,8 +249,9 @@ body {
       grid-column: span 2;
       grid-row: span 2; }
   body #contact {
+    box-sizing: border-box;
     padding: 20px;
-    height: 20vh;
+    min-height: 20vh;
     width: 100%;
     background-color: #212F3D;
     color: #AEB6BF; }
@@ -266,7 +267,8 @@ body {
       margin: 0; }
     body #contact-elements ul li {
       display: inline-block;
-      padding: 15px 30px;
+      width: 250px;
+      padding: 15px 0;
       font-size: 2.5em; }
       body #contact-elements ul li h3 {
         font-size: 0.5em;
@@ -285,11 +287,11 @@ body {
       transform-origin: center;
       transform: translate(-50%, 0) scaleX(0);
       transition: transform 0.3s ease-in-out; }
-    body #contact-elements .contact-details:hover::before {
-      transform: translate(-50%, 0) scaleX(1); }
-    body #contact-elements .fa-envelope:hover {
+    body #contact-elements .mailto:hover {
       cursor: pointer;
       animation: jelly 0.5s; }
+      body #contact-elements .mailto:hover .contact-details:hover::before {
+        transform: translate(-50%, 0) scaleX(1); }
 @keyframes jelly {
   0%,
       100% {
@@ -300,7 +302,7 @@ body {
     transform: scale(1.1, 0.9); }
   75% {
     transform: scale(0.95, 1.05); } }
-    body #contact-elements .fa-phone:hover {
+    body #contact-elements .phone:hover {
       animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
       transform: translate3d(0, 0, 0); }
 @keyframes shake {

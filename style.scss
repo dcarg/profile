@@ -377,8 +377,9 @@ body {
 
   // CONTACT
   #contact {
+    box-sizing: border-box;
     padding: 20px;
-    height: 20vh;
+    min-height: 20vh;
     width: 100%;
     background-color: #212F3D;
     color: #AEB6BF;
@@ -398,8 +399,8 @@ body {
     }
     ul li{
       display: inline-block;
-      padding: 15px 30px;
-      
+      width: 250px;
+      padding: 15px 0;
       font-size: 2.5em;
       h3 {
         font-size: 0.5em;
@@ -424,16 +425,15 @@ body {
       transform: translate(-50%, 0) scaleX(0);
       transition: transform 0.3s ease-in-out;
     }
-    .contact-details:hover::before {
-      transform: translate(-50%, 0) scaleX(1);
-    }
-
 
     // Contact Icon Effects
     // MAIL JELLY
-    .fa-envelope:hover {
+    .mailto:hover {
       cursor: pointer;
       animation: jelly 0.5s;
+      .contact-details:hover::before {
+        transform: translate(-50%, 0) scaleX(1);
+      }
     }
 
     @keyframes jelly {
@@ -453,7 +453,7 @@ body {
     }
 
     // PHONE SHAKE
-    .fa-phone:hover {
+    .phone:hover {
       animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
       transform: translate3d(0, 0, 0);
       // backface-visibility: hidden;
